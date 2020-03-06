@@ -1,0 +1,171 @@
+﻿{
+    "version" : "17.0.0.1",
+    "runtime" :
+    {
+        "target" :
+        {
+            "os" : "windows"
+        },
+        "framework" :
+        [    
+        "./nexacro17lib/framework/SystemBase.js",
+        "./nexacro17lib/framework/SystemBase_HTML5.js",
+        "./nexacro17lib/framework/SystemBase_Runtime.js",
+        "./nexacro17lib/framework/BasicObjs.js",
+        "./nexacro17lib/framework/ErrorDefine.js",
+        "./nexacro17lib/framework/Platform_HTML5.js",
+        "./nexacro17lib/framework/Platform_Runtime.js",
+        "./nexacro17lib/framework/Platform.js",
+        "./nexacro17lib/framework/CssObjs.js",
+        "./nexacro17lib/framework/Device.js",
+        "./nexacro17lib/framework/Device_Android.js",
+        "./nexacro17lib/framework/Device_Windows.js",
+        "./nexacro17lib/framework/Device_iOS.js"
+        ],
+        "component" :
+        [    
+        "./nexacro17lib/component/CompBase/Element_HTML5.js",
+        "./nexacro17lib/component/CompBase/Element_Runtime.js",
+        "./nexacro17lib/component/CompBase/CompBase.js",
+        "./nexacro17lib/component/CompBase/CompEventBase.js",
+        "./nexacro17lib/component/CompBase/Data.js",
+        "./nexacro17lib/component/CompBase/EditBase.js",
+        "./nexacro17lib/component/CompBase/FormBase.js",
+        "./nexacro17lib/component/CompBase/TitleBar.js",
+        "./nexacro17lib/component/CompBase/StatusBar.js",
+        "./nexacro17lib/component/CompBase/FrameBase.js",
+        "./nexacro17lib/component/CompBase/ScrollBar.js",
+        "./nexacro17lib/component/CompBase/Step.js",
+        "./nexacro17lib/component/CompBase/Animation.js",
+        "./nexacro17lib/component/ComComp/Dataset.js",
+        "./nexacro17lib/component/ComComp/DomObject.js",
+        "./nexacro17lib/component/ComComp/Static.js",
+        "./nexacro17lib/component/ComComp/Button.js",
+        "./nexacro17lib/component/ComComp/Edit.js",
+        "./nexacro17lib/component/ComComp/MaskEdit.js",
+        "./nexacro17lib/component/ComComp/TextArea.js",
+        "./nexacro17lib/component/ComComp/lang/ko/ime.js",
+        "./nexacro17lib/component/ComComp/lang/ja/ime.js",
+        "./nexacro17lib/component/ComComp/ImageViewer.js",
+        "./nexacro17lib/component/ComComp/CheckBox.js",
+        "./nexacro17lib/component/ComComp/Radio.js",
+        "./nexacro17lib/component/ComComp/ListBox.js",
+        "./nexacro17lib/component/ComComp/Combo.js",
+        "./nexacro17lib/component/ComComp/Div.js",
+        "./nexacro17lib/component/ComComp/ProgressBar.js",
+        "./nexacro17lib/component/ComComp/PopupDiv.js",
+        "./nexacro17lib/component/ComComp/Menu.js",
+        "./nexacro17lib/component/ComComp/PopupMenu.js",
+        "./nexacro17lib/component/ComComp/Spin.js",
+        "./nexacro17lib/component/ComComp/DatePicker.js",
+        "./nexacro17lib/component/ComComp/Calendar.js",
+        "./nexacro17lib/component/ComComp/GroupBox.js",
+        "./nexacro17lib/component/ComComp/Tab.js",
+        "./nexacro17lib/component/ComComp/FileDialog.js",
+        "./nexacro17lib/component/ComComp/FileDownload.js",
+        "./nexacro17lib/component/ComComp/FileDownTransfer.js",
+        "./nexacro17lib/component/ComComp/FileUpload.js",
+        "./nexacro17lib/component/ComComp/FileUpTransfer.js",
+        "./nexacro17lib/component/ComComp/VideoPlayer.js",
+        "./nexacro17lib/component/ComComp/WebBrowser.js",
+        "./nexacro17lib/component/ComComp/GoogleMap.js",
+        "./nexacro17lib/component/ComComp/Sketch.js",
+        "./nexacro17lib/component/ComComp/ExportObject.js",
+        "./nexacro17lib/component/ComComp/ImportObject.js",
+        "./nexacro17lib/component/ComComp/Tray.js",
+        "./nexacro17lib/component/ComComp/Plugin.js",
+        "./nexacro17lib/component/ComComp/VirtualFile.js",
+        "./nexacro17lib/component/ComComp/Cell.js",
+        "./nexacro17lib/component/Grid/GridInfo.js",
+        "./nexacro17lib/component/Grid/Grid.js",
+        "./nexacro17lib/component/CompBaseEx/SimpleComp.js",
+        "./nexacro17lib/component/CompBaseEx/ComplexComp.js",
+        "./nexacro17lib/component/ListView/ListView.js",
+        "./nexacro17lib/component/DeviceAPI/SQLite.js",
+        "./nexacro17lib/component/DeviceAPI/SQLite_Runtime.js",
+        "./nexacro17lib/component/DeviceAPI/DeviceObjs.js",
+        "./nexacro17lib/component/DeviceAPI/DeviceObjs_Runtime.js",
+        "./nexacro17lib/component/DeviceAPI/Mobile.js",
+        "./nexacro17lib/component/DeviceAPI/BluetoothLE.js",
+        "./nexacro17lib/component/DeviceAPI/TCPClientSocket.js",
+        "./nexacro17lib/component/EcoLibrary/Namespace.js",
+        "./nexacro17lib/component/EcoLibrary/Eco.js",
+        "./nexacro17lib/component/EcoLibrary/array.js",
+        "./nexacro17lib/component/EcoLibrary/date.js",
+        "./nexacro17lib/component/EcoLibrary/number.js",
+        "./nexacro17lib/component/EcoLibrary/string.js",
+        "./nexacro17lib/component/EcoLibrary/object.js",
+        "./nexacro17lib/component/EcoLibrary/Style.js",
+        "./nexacro17lib/component/EcoLibrary/Logger.js",
+        "./nexacro17lib/component/EcoLibrary/Color.js",
+        "./nexacro17lib/component/EcoLibrary/XComp.js",
+        "./nexacro17lib/component/EcoLibrary/PositionSize.js",
+        "./nexacro17lib/component/EcoLibrary/Json.js",
+        "./nexacro17lib/component/EcoLibrary/Event.js",
+        "./nexacro17lib/component/EcoLibrary/LocalStorage.js",
+        "./nexacro17lib/component/EcoLibrary/Factory.js",
+        "./nexacro17lib/component/EcoLibrary/util.js",
+        "./nexacro17lib/component/HintsEduLib/Comp.js",
+        "./nexacro17lib/component/HintsEduLib/Excel.js",
+        "./nexacro17lib/component/HintsEduLib/Frame.js",
+        "./nexacro17lib/component/HintsEduLib/Grid.js",
+        "./nexacro17lib/component/HintsEduLib/GridFilter.js",
+        "./nexacro17lib/component/HintsEduLib/Message.js",
+        "./nexacro17lib/component/HintsEduLib/Popup.js",
+        "./nexacro17lib/component/HintsEduLib/QmeNexa.js",
+        "./nexacro17lib/component/HintsEduLib/Transaction.js",
+        "./nexacro17lib/component/HintsEduLib/Util.js",
+        "./nexacro17lib/component/HintsEduLib/Util_adh.js",
+        "./nexacro17lib/component/HintsEduLib/Validation.js"
+        ],
+        "environment" :
+        [    
+        {
+        "file":"./environment.xml.js"
+        }
+        ],
+        "screen" :
+        [    
+        {"id":"Desktop_screen","type":"desktop","tracemode":"append","themeid":"theme::HintsEduTheme"},
+        {"id":"Phone_screen","type":"mobile_small","themeid":"theme::default"}
+        ],
+        "xadl" :
+        [
+        {
+        	"screenid":"Desktop_screen",
+        	"launch":"./App_Desktop.xadl.js",
+        	"quickview":"./App_Desktop.xadl.quickview.js",
+        	"form":[
+        				"./Frame/Form_Top.xfdl.js",
+        		"./Frame/Form_Left.xfdl.js",
+        		"./Frame/Form_Tab.xfdl.js",
+        		"./Frame/Form_Work.xfdl.js",
+        		"./Frame/Form_Logon.xfdl.js"
+        	]
+        },
+        {
+        	"screenid":"Phone_screen",
+        	"launch":"./App_Phone.xadl.js",
+        	"quickview":"./App_Phone.xadl.quickview.js",
+        	"form":[]
+        }
+        ],  
+        "protocol" :
+        {
+            "adaptors" :
+            []
+        },
+        "resource" :
+        {
+
+        },
+		"deploy" :
+        {
+
+        },
+        "userfont" :
+        [
+
+        ]
+    }
+}
