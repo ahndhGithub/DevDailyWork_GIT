@@ -37,10 +37,10 @@ if (nexacro.Environment)
         nexacro._addService("Images", "file", "./Images/", "session", null, "", "0", "0");
         nexacro._addService("Recycle", "form", "./Recycle/", "session", null, "", "0", "0");
         nexacro._addService("QmeNexHtml", "file", "./QmeNexHtml/", "session", null, "", "0", "0");
-        nexacro._addService("AppSvrLocalMsSql1", "JSP", "http://localhost:8080/DevDailyWork_GIT/", "none", null, "", "0", "0");
+        nexacro._addService("AppSvrLocalMsSql", "JSP", "http://localhost:8080/DevDailyWork/", "none", null, "", "0", "0");
         nexacro._addService("ImgSvrTest", "JSP", "http://192.168.11.193:8081/ImageViewer.do?realFileNm=", "none", null, "", "0", "0");
         nexacro._addService("EcoLibrary", "file", "./EcoLibrary/", "session", null, "", "0", "0");
-        nexacro._addService("AppSvrLocalMsSql", "JSP", "http://10.101.44.160:8080/DevDailyWork_GIT/", "session", null, "", "0", "0");
+        nexacro._addService("AppSvrLocalMsSql2", "JSP", "http://10.101.44.160:8080/DevDailyWork_GIT/", "session", null, "", "0", "0");
 
     	nexacro._component_uri = (nexacro._arg_compurl ? nexacro._arg_compurl : "./nexacro17lib/component/");
     	nexacro._theme_uri = "./_resource_/_theme_/";
