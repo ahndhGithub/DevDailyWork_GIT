@@ -578,7 +578,7 @@
         */
         this.tfn_tbl10_search = function(){
 
-        	var gtrcPos = "POList.xfdl.tfn_tbl10_search";		this.gtrace("● POSearch트랜잭션", gtrcPos);
+        	var gtrcPos = "DevDailyWork.xfdl.tfn_tbl10_search";		this.gtrace("● POSearch트랜잭션", gtrcPos);
 
         	this.ds_workList.clearData();
 

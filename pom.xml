@@ -3,8 +3,8 @@
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
 <modelVersion>4.0.0</modelVersion>
 <groupId>com.dailywork</groupId>
-<artifactId>DevDailyWork</artifactId>
-<name>DevDailyWork</name>
+<artifactId>DevDailyWork_GIT</artifactId>
+<name>DevDailyWork_GIT</name>
 <packaging>war</packaging> 
 <version>1.0.0-BUILD-SNAPSHOT</version>
 <properties>

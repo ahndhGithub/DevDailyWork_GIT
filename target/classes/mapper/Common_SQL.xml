@@ -110,5 +110,43 @@
           ,  #{NUMERIC_PRECISION}
           ,  #{NUMERIC_SCALE}
       </select>
+
+    <select id="test_load_ckeditor" parameterType="hashMap" statementType="CALLABLE" resultType="hashMap">
+      EXEC USP_TaskMaster_SEARCH
+             #{Task_ID}
+          ,  #{TaskManager}
+          ,  #{ServiceCode}
+          ,  #{PlanStartDate}
+          ,  #{PlanEndDate}
+          ,  #{ActualStartDate}
+          ,  #{ActualEndDate}
+      </select>
+
+    <select id="test_save_ckeditor" parameterType="hashMap" statementType="CALLABLE" resultType="hashMap">
+      EXEC USP_TaskMaster_SAVE
+			  #{ROW_STS}
+			, #{Task_ID}
+			, #{TaskName}
+			, #{TaskDescript}
+			, #{TaskType}
+			, #{TaskStatus}
+			, #{RequestDept}
+			, #{RequestUser}
+			, #{ServiceCode}
+			, #{TaskManager}
+			, #{DutyUser_ID}
+			, #{PlanMD}
+			, #{PlanStartDate}
+			, #{PlanEndDate}
+			, #{ActualMD}
+			, #{ActualStartDate}
+			, #{ActualEndDate}
+			, #{DeployDate}
+			, #{RefDocNo}
+			, #{RefURL}
+			, #{Files_ID}
+			, #{Remark}
+			, #{ModifiedUser}
+      </select>
 	
 </mapper>

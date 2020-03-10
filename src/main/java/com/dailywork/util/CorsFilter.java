@@ -40,9 +40,9 @@ public class CorsFilter implements Filter {
 		HttpServletRequest req = (HttpServletRequest) request;
 		
 		if(req.getRequestURL().substring(7, 11).equals("nerp")) {
-			res.addHeader("Access-Control-Allow-Origin", "http://DevDailyWork.com");
+			res.addHeader("Access-Control-Allow-Origin", "http://DevDailyWork_GIT.com");
 		} else {
-			res.addHeader("Access-Control-Allow-Origin", "http://DevDailyWork.com");
+			res.addHeader("Access-Control-Allow-Origin", "http://DevDailyWork_GIT.com");
 		}
 		
 		res.addHeader("Access-Control-Allow-Credentials", "true");

@@ -57,6 +57,12 @@
 {
   cursor:default;
 }
+
+.Sketch .nexacontentsbox
+{
+   text-align:center;
+}
+
 .nexainput
 {
   cursor:inherit;

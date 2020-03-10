@@ -245,6 +245,11 @@ input::-ms-clear,input::-ms-reveal
   background-position:center center;
 }
 
+.Sketch .nexacontentsbox
+{
+   text-align:center;
+}
+
 .MainFrame, .VScrollBarControl, .HScrollBarControl
 {
   cursor:default;

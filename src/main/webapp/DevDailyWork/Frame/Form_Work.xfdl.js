@@ -46,6 +46,16 @@
             obj.set_text("Purchase Order");
             this.Div00.addChild(obj.name, obj);
 
+            obj = new Button("Button_Editor_ckeditor","244","315","120","50",null,null,null,null,null,null,this.Div00.form);
+            obj.set_taborder("4");
+            obj.set_text("Editor_ckeditor\r\nSample");
+            this.Div00.addChild(obj.name, obj);
+
+            obj = new Button("Button_Editor_ToastUI","394","315","120","50",null,null,null,null,null,null,this.Div00.form);
+            obj.set_taborder("5");
+            obj.set_text("Editor_ToastUI\r\nSample");
+            this.Div00.addChild(obj.name, obj);
+
             // Layout Functions
             //-- Default Layout : this
             obj = new Layout("default","",this._adjust_width,this._adjust_height,this,function(p){});
@@ -106,6 +116,22 @@
         		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsDUPCol,"N");
         		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsLeafCol,"Y");
         	}
+        	if (objDsMenu.findRow( HINTS.gv_MenuCodeCol, "Editor_ckeditor" ) == -1 ) {
+        		var nMenuRow = objDsMenu.addRow();
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuCodeCol,"Editor_ckeditor");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuNameCol,"Editor_ckeditor");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuURLCol,"Base::Editor_ckeditor.xfdl");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsDUPCol,"N");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsLeafCol,"Y");
+        	}
+        	if (objDsMenu.findRow( HINTS.gv_MenuCodeCol, "Editor_ToastUI" ) == -1 ) {
+        		var nMenuRow = objDsMenu.addRow();
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuCodeCol,"Editor_ToastUI");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuNameCol,"Editor_ToastUI");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuURLCol,"Base::Editor_ToastUI.xfdl");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsDUPCol,"N");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsLeafCol,"Y");
+        	}
         	switch(obj.name) {
         	case "Button_Tx":
         		this.gfn_openMenu("TxTest","");
@@ -118,6 +144,12 @@
         		break;
         	case "Button_POList":
         		this.gfn_openMenu("POList","");
+        		break;
+        	case "Button_Editor_ckeditor":
+        		this.gfn_openMenu("Editor_ckeditor","");
+        		break;
+        	case "Button_Editor_ToastUI":
+        		this.gfn_openMenu("Editor_ToastUI","");
         		break;
         	default:
         	}
@@ -134,6 +166,8 @@
             this.Div00.form.Button_Tx.addEventHandler("onclick",this.Button_onclick,this);
             this.Div00.form.Button_Grid_Obj.addEventHandler("onclick",this.Button_onclick,this);
             this.Div00.form.Button_POList.addEventHandler("onclick",this.Button_onclick,this);
+            this.Div00.form.Button_Editor_ckeditor.addEventHandler("onclick",this.Button_onclick,this);
+            this.Div00.form.Button_Editor_ToastUI.addEventHandler("onclick",this.Button_onclick,this);
         };
 
         this.loadIncludeScript("Form_Work.xfdl");
