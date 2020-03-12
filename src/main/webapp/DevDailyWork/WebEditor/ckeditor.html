@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CKEditor 4 – basic editor</title>
+    <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>    
+</head>
+<body>
+    <textarea name="content" id="editor">
+    </textarea>
+    
+    <script>
+        CKEDITOR.replace( 'editor' );
+        CKEDITOR.config.height = 500;
+        
+        function setData(str)
+        {
+            CKEDITOR.instances.editor.setData(str);
+        }
+        
+        function getData()
+        {
+            return CKEDITOR.instances.editor.getData();
+        }            
+    </script>
+</body>
+</html>
