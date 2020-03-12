@@ -13,7 +13,7 @@
             this.set_scrolltype("none");
             if (Form == this.constructor)
             {
-                this._setFormPosition(440,21);
+                this._setFormPosition(413,21);
             }
             
             // Object(Dataset, ExcelExportObject) Initialize
@@ -54,7 +54,7 @@
             obj.getSetter("EditNameToApply").set("To");
             this.addChild(obj.name, obj);
 
-            obj = new Button("btnMultiSelect","392","0","21","21",null,null,null,null,null,null,this);
+            obj = new Button("btnMultiSelect",null,"0","21","21","0",null,null,null,null,null,this);
             obj.set_taborder("5");
             obj.set_cssclass("btn_WF_pop1");
             obj.set_text("");
@@ -70,7 +70,7 @@
 
             // Layout Functions
             //-- Default Layout : this
-            obj = new Layout("default","",440,21,this,function(p){});
+            obj = new Layout("default","",413,21,this,function(p){});
             this.addLayout(obj.name, obj);
             
             // BindItem Information
@@ -256,14 +256,19 @@
         		}
         		//팝업의 URL
         		var sPopUrl 	= ds_SearchConditionType.lookup("TypeCode",sSearchCond, "PopupUrl");		this.gtrace("sPopUrl--->"+sPopUrl, gtrcPos);
-        		//팝업의 TitleText
-        		var sPopTitle	= this.gfn_getWord(ds_SearchConditionType.lookup("TypeCode",sSearchCond, "PopupTitle"));	this.gtrace("sPopTitle--->"+sPopTitle, gtrcPos);
-        		var sUrl      	= sPopUrl;
-        		var oArg      	= {pStr:sPrevMultiText, pNum:sSrchCndTp, pObj:obj.EditNameToApply};
-        		var sCallBack 	= "fn_popupCallback";
-        		var oOption   	= {title : sPopTitle};
 
-        		this.gfn_openPopup(sPopupId, sUrl, oArg, sCallBack, oOption);
+        		if(!this.gfn_isNull(sPopUrl))
+        		{
+        			//팝업의 TitleText
+        			var sPopTitle	= this.gfn_getWord(ds_SearchConditionType.lookup("TypeCode",sSearchCond, "PopupTitle"));	this.gtrace("sPopTitle--->"+sPopTitle, gtrcPos);
+        			var sUrl      	= sPopUrl;
+        			var oArg      	= {pStr:sPrevMultiText, pNum:sSrchCndTp, pObj:obj.EditNameToApply};
+        			var sCallBack 	= "fn_popupCallback";
+        			var oOption   	= {title : sPopTitle};
+
+        			this.gfn_openPopup(sPopupId, sUrl, oArg, sCallBack, oOption);
+
+        		}
         	}
         };
 

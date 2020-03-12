@@ -105,7 +105,7 @@
             obj.set_cssclass("sta_WF_searchLabel");
             this.DivCondition.addChild(obj.name, obj);
 
-            obj = new Div("div_SalesOrderFromTo","118","8","431","21",null,null,null,null,null,null,this.DivCondition.form);
+            obj = new Div("div_SalesOrderFromTo","118","8","193","21",null,null,null,null,null,null,this.DivCondition.form);
             obj.set_taborder("1");
             obj.set_text("Div00");
             obj.set_url("Comm::Comm_SearchConditionFromTo.xfdl");

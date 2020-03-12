@@ -56,6 +56,11 @@
             obj.set_text("Editor_ToastUI\r\nSample");
             this.Div00.addChild(obj.name, obj);
 
+            obj = new Button("Button_Editor_RichTextEditor","244","405","120","50",null,null,null,null,null,null,this.Div00.form);
+            obj.set_taborder("6");
+            obj.set_text("RichTextEditor");
+            this.Div00.addChild(obj.name, obj);
+
             // Layout Functions
             //-- Default Layout : this
             obj = new Layout("default","",this._adjust_width,this._adjust_height,this,function(p){});
@@ -132,6 +137,14 @@
         		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsDUPCol,"N");
         		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsLeafCol,"Y");
         	}
+        	if (objDsMenu.findRow( HINTS.gv_MenuCodeCol, "Editor_RichTextEditor" ) == -1 ) {
+        		var nMenuRow = objDsMenu.addRow();
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuCodeCol,"Editor_RichTextEditor");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuNameCol,"Editor_RichTextEditor");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuURLCol,"RichTextEditor::richtexteditor_sample.xfdl");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsDUPCol,"N");
+        		objDsMenu.setColumn(nMenuRow, HINTS.gv_MenuIsLeafCol,"Y");
+        	}
         	switch(obj.name) {
         	case "Button_Tx":
         		this.gfn_openMenu("TxTest","");
@@ -151,6 +164,9 @@
         	case "Button_Editor_ToastUI":
         		this.gfn_openMenu("Editor_ToastUI","");
         		break;
+        	case "Button_Editor_RichTextEditor":
+        		this.gfn_openMenu("Editor_RichTextEditor","");
+        		break;
         	default:
         	}
 
@@ -168,6 +184,7 @@
             this.Div00.form.Button_POList.addEventHandler("onclick",this.Button_onclick,this);
             this.Div00.form.Button_Editor_ckeditor.addEventHandler("onclick",this.Button_onclick,this);
             this.Div00.form.Button_Editor_ToastUI.addEventHandler("onclick",this.Button_onclick,this);
+            this.Div00.form.Button_Editor_RichTextEditor.addEventHandler("onclick",this.Button_onclick,this);
         };
 
         this.loadIncludeScript("Form_Work.xfdl");

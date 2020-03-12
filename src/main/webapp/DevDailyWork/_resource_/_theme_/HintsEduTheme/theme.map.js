@@ -1556,6 +1556,849 @@
 								}
 							}
 						}
+					},
+					{
+						"Editor_btn_bold" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_italic" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_underline" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_strike" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_alignL" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_alignC" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_alignR" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_alignJ" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_justL" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_justR" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_listOdr" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_list" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_grid" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_layout" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_quo" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_symbol" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_highlight" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_link" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_image" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_dn" :
+						{
+							"self" :
+							{
+								"enabled" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"focused" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"selected" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"disabled" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"mouseover" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"pushed" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_up" :
+						{
+							"self" :
+							{
+								"enabled" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"focused" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"selected" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"disabled" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"mouseover" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								},
+								"pushed" :
+								{
+									"border" : nexacro.BorderObject("0px none, 0px none, 0px none, 1px solid #93a5ba")
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_algn01" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_algn02" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_algn03" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_algn04" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_algn05" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_algn06" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_algn07" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_algn08" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_penclr" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_bdsize" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_grid2" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_bgclr" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_alignT" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_alignM" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"Editor_btn_alignB" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"pushed" :
+								{
+								},
+								"disabled" :
+								{
+								}
+							}
+						}
 					}
 				]
 			},
@@ -5997,6 +6840,75 @@
 		imgcache[nexacro._getImageLocation("theme://images/btn_POP_Close.png")] = { width:10, height:9 };
 		imgcache[nexacro._getImageLocation("theme://images/Login_bg.png")] = { width:287, height:400 };
 		imgcache[nexacro._getImageLocation("theme://images/img_nexacro_w.png")] = { width:165, height:43 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_bold.png")] = { width:12, height:9 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_bold_D.png")] = { width:12, height:9 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_italic.png")] = { width:8, height:9 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_italic_D.png")] = { width:8, height:9 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_underline.png")] = { width:10, height:11 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_underline_D.png")] = { width:10, height:11 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_strike.png")] = { width:10, height:10 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_strike_D.png")] = { width:10, height:10 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignL.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignL_D.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignC.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignC_D.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignR.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignR_D.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignJ.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignJ_D.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_justL.png")] = { width:13, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_justL_D.png")] = { width:13, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_justR.png")] = { width:13, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_justR_D.png")] = { width:13, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_listOdr.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_listOdr_D.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_list.png")] = { width:15, height:13 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_list_D.png")] = { width:15, height:13 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_grid.png")] = { width:14, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_grid_D.png")] = { width:14, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_layout.png")] = { width:18, height:11 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_layout_D.png")] = { width:18, height:11 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_quo.png")] = { width:15, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_quo_D.png")] = { width:15, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_symbol.png")] = { width:16, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_symbol_D.png")] = { width:16, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_highlight.png")] = { width:15, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_highlight_D.png")] = { width:15, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_link.png")] = { width:16, height:13 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_link_D.png")] = { width:16, height:13 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_imgAdd.png")] = { width:16, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_imgAdd_D.png")] = { width:16, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_dn.png")] = { width:13, height:24 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_dn_O.png")] = { width:13, height:24 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_up.png")] = { width:13, height:24 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_up_O.png")] = { width:13, height:24 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn01.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn02.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn02_D.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn03.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn03_D.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn04.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn04_D.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn05.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn05_D.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn06.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn07.png")] = { width:16, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn07_D.png")] = { width:16, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn08.png")] = { width:15, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn08_D.png")] = { width:15, height:15 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_penclr.png")] = { width:16, height:16 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_penclr_D.png")] = { width:16, height:16 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_bold2.png")] = { width:13, height:10 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_grid2.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_grid2_D.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_bgclr.png")] = { width:16, height:16 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_bgclr_D.png")] = { width:16, height:16 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignT.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignT_D.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignM.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignM_D.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignB.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignB_D.png")] = { width:14, height:12 };
 		imgcache[nexacro._getImageLocation("theme://images/grid_add.png")] = { width:20, height:24 };
 		imgcache[nexacro._getImageLocation("theme://images/grid_edit.png")] = { width:20, height:24 };
 		imgcache[nexacro._getImageLocation("theme://images/grid_remove.png")] = { width:20, height:24 };
@@ -6006,6 +6918,9 @@
 		imgcache[nexacro._getImageLocation("theme://images/img_MF_main.png")] = { width:513, height:341 };
 		imgcache[nexacro._getImageLocation("theme://images/img_MF_process.png")] = { width:431, height:191 };
 		imgcache[nexacro._getImageLocation("theme://images/RecycleBin_Empty_18.png")] = { width:18, height:18 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn01_D.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn06_D.png")] = { width:15, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_bold2_D.png")] = { width:13, height:10 };
 	};
 }
 )();

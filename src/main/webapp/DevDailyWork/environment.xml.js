@@ -41,6 +41,8 @@ if (nexacro.Environment)
         nexacro._addService("ImgSvrTest", "JSP", "http://192.168.11.193:8081/ImageViewer.do?realFileNm=", "none", null, "", "0", "0");
         nexacro._addService("EcoLibrary", "file", "./EcoLibrary/", "session", null, "", "0", "0");
         nexacro._addService("AppSvrLocalMsSql2", "JSP", "http://10.101.44.160:8080/DevDailyWork_GIT/", "session", null, "", "0", "0");
+        nexacro._addService("RichTextEditor", "form", "./RichTextEditor/", "none", null, "", "0", "0");
+        nexacro._addService("Library_RichTextEditor", "js", "./Library_RichTextEditor/", "none", null, "", "0", "0");
 
     	nexacro._component_uri = (nexacro._arg_compurl ? nexacro._arg_compurl : "./nexacro17lib/component/");
     	nexacro._theme_uri = "./_resource_/_theme_/";
@@ -77,7 +79,8 @@ if (nexacro.Environment)
         		{"id":"FileUpload", "classname":"nexacro.FileUpload", "type":"JavaScript"},
         		{"id":"FileUpTransfer", "classname":"nexacro.FileUpTransfer", "type":"JavaScript"},
         		{"id":"WebBrowser", "classname":"nexacro.WebBrowser", "type":"JavaScript"},
-        		{"id":"Sketch", "classname":"nexacro.Sketch", "type":"JavaScript"}
+        		{"id":"Sketch", "classname":"nexacro.Sketch", "type":"JavaScript"},
+        		{"id":"FileDownload", "classname":"nexacro.FileDownload", "type":"JavaScript"}
         ];
     	nexacro._addClasses(registerclass);
     };
