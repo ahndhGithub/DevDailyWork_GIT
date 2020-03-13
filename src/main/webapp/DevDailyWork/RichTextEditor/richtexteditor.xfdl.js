@@ -370,11 +370,11 @@
 
             obj = new Grid("grd_tableBoderRange","5","121","125","198",null,null,null,null,null,null,this.div_tableBoderRange.form);
             obj.set_taborder("0");
-            obj.set_binddataset("ds_tableBoderRange");
             obj.set_readonly("true");
             obj.getSetter("useinputpanel").set("false");
             obj.set_useselcolor("false");
             obj.set_cssclass("Editor_grd_pop");
+            obj.set_binddataset("ds_tableBoderRange");
             obj._setContents("<Formats><Format id=\"default\"><Columns><Column size=\"25\"/><Column size=\"87\"/></Columns><Rows><Row size=\"24\"/></Rows><Band id=\"body\"><Cell displaytype=\"imagecontrol\" text=\"bind:icon\"/><Cell col=\"1\" text=\"bind:value\"/></Band></Format></Formats>");
             this.div_tableBoderRange.addChild(obj.name, obj);
 

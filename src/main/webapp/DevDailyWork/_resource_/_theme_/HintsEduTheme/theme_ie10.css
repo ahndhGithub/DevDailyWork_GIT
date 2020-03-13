@@ -1847,6 +1847,55 @@ input::-ms-clear,input::-ms-reveal
 {
 	background : url('./images/RichTextEditor/Editor_btn_alignB.png') no-repeat center center #ffffff;
 }
+.Button.btn_LF_fold
+{
+	background : url('./images/RichTextEditor/btn_prev_Z.png') no-repeat center center #FFFFFF;
+}
+.Button.btn_LF_expand
+{
+	background : url('./images/RichTextEditor/btn_next_Z.png') no-repeat center center #FFFFFF;
+}
+.Button.btn_WF_treecollapse
+{
+	background : url('./images/RichTextEditor/btn_WF_treecollapse.png') no-repeat center center #FFFFFF;
+}
+.Button.btn_LF_treeexpand
+{
+	background : url('./images/RichTextEditor/btn_WF_treeexpand.png') no-repeat center center #FFFFFF;
+}
+.Button.btn_mdi_icon01
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon01.png') no-repeat center center #FFFFFF;
+}
+.Button.btn_mdi_icon02
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon02.png') no-repeat center center #FFFFFF;
+}
+.Button.btn_mdi_icon03
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon03.png') no-repeat center center #FFFFFF;
+}
+.Button.btn_mdi_icon04
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon04.png') no-repeat center center #FFFFFF;
+}
+.Button.btn_mdi_icon05
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon05.png') no-repeat center center #FFFFFF;
+}
+.ImageViewer.topframe_logo
+{
+	border : 1px solid blue;
+	background : url('./images/img_top_logo.png') no-repeat center center blue;
+}
+.Div.div_adminIcon
+{
+	background : url('./images/img_top_adminIcon.png') no-repeat left center #716b65;
+}
+.Button.btn_WF_modify01
+{
+	background : url('./images/img_WF_modify.png') no-repeat left center #f1f1f1;
+}
 #nexacontainer .VScrollBarControl[status=mouseover]
 {
 	background : #f0f0f0;
@@ -3485,6 +3534,94 @@ input::-ms-clear,input::-ms-reveal
 {
 	background : url('./images/RichTextEditor/Editor_btn_alignB.png') no-repeat center center #56e7ca;
 }
+#nexacontainer .Button.btn_LF_fold[status=focused]
+{
+	background : url('./images/RichTextEditor/btn_prev_Z.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_LF_fold[status=mouseover]
+{
+	background : url('./images/RichTextEditor/btn_prev_Z.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_LF_expand[status=focused]
+{
+	background : url('./images/RichTextEditor/btn_next_Z.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_LF_expand[status=mouseover]
+{
+	background : url('./images/RichTextEditor/btn_next_Z.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_WF_treecollapse[status=focused]
+{
+	background : url('./images/RichTextEditor/btn_WF_treecollapse.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_WF_treecollapse[status=mouseover]
+{
+	background : url('./images/RichTextEditor/btn_WF_treecollapse.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_LF_treeexpand[status=focused]
+{
+	background : url('./images/RichTextEditor/btn_WF_treeexpand.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_LF_treeexpand[status=mouseover]
+{
+	background : url('./images/RichTextEditor/btn_WF_treeexpand.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon01[status=focused]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon01.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon01[status=mouseover]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon01_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon02[status=focused]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon02.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon02[status=mouseover]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon02_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon03[status=focused]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon03.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon03[status=mouseover]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon03_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon04[status=focused]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon04.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon04[status=mouseover]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon04_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon05[status=focused]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon05.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon05[status=mouseover]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon05_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Div.div_adminIcon[status=mouseover]
+{
+	background : url('./images/img_top_adminIcon.png') no-repeat left center #716b65;
+}
+#nexacontainer .Div.div_adminIcon[status=focused]
+{
+	background : url('./images/img_top_adminIcon.png') no-repeat left center #716b65;
+}
+#nexacontainer .Button.btn_WF_modify01[status=focused]
+{
+	background : url('./images/img_WF_modify.png') no-repeat left center #f1f1f1;
+}
+#nexacontainer .Button.btn_WF_modify01[status=mouseover]
+{
+	background : url('./images/img_WF_modify.png') no-repeat left center #e3e3e3;
+}
 #nexacontainer .TitleBarControl .closebutton[userstatus=selected]
 {
 	cursor : pointer;
@@ -4564,6 +4701,86 @@ input::-ms-clear,input::-ms-reveal
 {
 	background : url('./images/RichTextEditor/Editor_btn_alignB.png') no-repeat center center #afb1f4;
 }
+#nexacontainer .Button.btn_LF_fold[userstatus=selected]
+{
+	background : url('./images/RichTextEditor/btn_prev_Z.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_LF_fold[userstatus=pushed]
+{
+	background : url('./images/RichTextEditor/btn_prev_Z.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_LF_expand[userstatus=selected]
+{
+	background : url('./images/RichTextEditor/btn_next_Z.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_LF_expand[userstatus=pushed]
+{
+	background : url('./images/RichTextEditor/btn_next_Z.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_WF_treecollapse[userstatus=selected]
+{
+	background : url('./images/RichTextEditor/btn_WF_treecollapse.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_WF_treecollapse[userstatus=pushed]
+{
+	background : url('./images/RichTextEditor/btn_WF_treecollapse.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_LF_treeexpand[userstatus=selected]
+{
+	background : url('./images/RichTextEditor/btn_WF_treeexpand.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_LF_treeexpand[userstatus=pushed]
+{
+	background : url('./images/RichTextEditor/btn_WF_treeexpand.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon01[userstatus=selected]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon01.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon01[userstatus=pushed]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon01_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon02[userstatus=selected]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon02.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon02[userstatus=pushed]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon02_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon03[userstatus=selected]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon03.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon03[userstatus=pushed]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon03_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon04[userstatus=selected]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon04.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon04[userstatus=pushed]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon04_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_mdi_icon05[userstatus=selected]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon05.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon05[userstatus=pushed]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon05_D.png') no-repeat center center #e5e5e5;
+}
+#nexacontainer .Button.btn_WF_modify01[userstatus=selected]
+{
+	background : url('./images/img_WF_modify.png') no-repeat left center #f1f1f1;
+}
+#nexacontainer .Button.btn_WF_modify01[userstatus=pushed]
+{
+	background : url('./images/img_WF_modify.png') no-repeat left center #e3e3e3;
+}
 #nexacontainer .TitleBarControl .closebutton[status=disabled]
 {
 	opacity : 0.60;
@@ -5143,6 +5360,46 @@ input::-ms-clear,input::-ms-reveal
 #nexacontainer .Button.Editor_btn_alignB[status=disabled]
 {
 	background : url('./images/RichTextEditor/Editor_btn_alignB_D.png') no-repeat center center #ffffff;
+}
+#nexacontainer .Button.btn_LF_fold[status=disabled]
+{
+	background : url('./images/RichTextEditor/btn_prev_Z.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_LF_expand[status=disabled]
+{
+	background : url('./images/RichTextEditor/btn_next_Z.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_WF_treecollapse[status=disabled]
+{
+	background : url('./images/RichTextEditor/btn_WF_treecollapse.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_LF_treeexpand[status=disabled]
+{
+	background : url('./images/RichTextEditor/btn_WF_treeexpand.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon01[status=disabled]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon01.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon02[status=disabled]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon02.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon03[status=disabled]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon03.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon04[status=disabled]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon04.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_mdi_icon05[status=disabled]
+{
+	background : url('./images/RichTextEditor/btn_mdi_icon05.png') no-repeat center center #FFFFFF;
+}
+#nexacontainer .Button.btn_WF_modify01[status=disabled]
+{
+	background : url('./images/img_WF_modify.png') no-repeat left center #dddddd;
 }
 #nexacontainer .Tab .tabbuttonitemTab[status=focused][userstatus=selected]
 {

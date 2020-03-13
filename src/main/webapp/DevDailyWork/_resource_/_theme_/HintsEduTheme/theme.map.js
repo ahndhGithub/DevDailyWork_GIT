@@ -2399,6 +2399,236 @@
 								}
 							}
 						}
+					},
+					{
+						"btn_LF_fold" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"btn_LF_expand" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"btn_WF_treecollapse" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"btn_LF_treeexpand" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"btn_mdi_icon01" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"btn_mdi_icon02" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"btn_mdi_icon03" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"btn_mdi_icon04" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"btn_mdi_icon05" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
+					},
+					{
+						"btn_WF_modify01" :
+						{
+							"self" :
+							{
+								"focused" :
+								{
+								},
+								"selected" :
+								{
+								},
+								"mouseover" :
+								{
+								},
+								"disabled" :
+								{
+								},
+								"pushed" :
+								{
+								}
+							}
+						}
 					}
 				]
 			},
@@ -4175,6 +4405,20 @@
 								}
 							}
 						}
+					},
+					{
+						"div_adminIcon" :
+						{
+							"self" :
+							{
+								"mouseover" :
+								{
+								},
+								"focused" :
+								{
+								}
+							}
+						}
 					}
 				]
 			},
@@ -5526,6 +5770,18 @@
 								"enabled" :
 								{
 									"border" : nexacro.BorderObject("0px none")
+								}
+							}
+						}
+					},
+					{
+						"topframe_logo" :
+						{
+							"self" :
+							{
+								"enabled" :
+								{
+									"border" : nexacro.BorderObject("1px solid blue")
 								}
 							}
 						}
@@ -6909,6 +7165,23 @@
 		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignM_D.png")] = { width:14, height:12 };
 		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignB.png")] = { width:14, height:12 };
 		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_alignB_D.png")] = { width:14, height:12 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_prev_Z.png")] = { width:12, height:16 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_next_Z.png")] = { width:12, height:16 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_WF_treecollapse.png")] = { width:13, height:9 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_WF_treeexpand.png")] = { width:13, height:9 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon01.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon01_D.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon02.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon02_D.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon03.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon03_D.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon04.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon04_D.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon05.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/btn_mdi_icon05_D.png")] = { width:18, height:17 };
+		imgcache[nexacro._getImageLocation("theme://images/img_top_logo.png")] = { width:159, height:11 };
+		imgcache[nexacro._getImageLocation("theme://images/img_top_adminIcon.png")] = { width:46, height:26 };
+		imgcache[nexacro._getImageLocation("theme://images/img_WF_modify.png")] = { width:28, height:17 };
 		imgcache[nexacro._getImageLocation("theme://images/grid_add.png")] = { width:20, height:24 };
 		imgcache[nexacro._getImageLocation("theme://images/grid_edit.png")] = { width:20, height:24 };
 		imgcache[nexacro._getImageLocation("theme://images/grid_remove.png")] = { width:20, height:24 };
@@ -6921,6 +7194,8 @@
 		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn01_D.png")] = { width:15, height:14 };
 		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_algn06_D.png")] = { width:15, height:14 };
 		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/Editor_btn_bold2_D.png")] = { width:13, height:10 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/img_mdi_home.png")] = { width:16, height:14 };
+		imgcache[nexacro._getImageLocation("theme://images/RichTextEditor/img_top_adminIcon.png")] = { width:46, height:26 };
 	};
 }
 )();

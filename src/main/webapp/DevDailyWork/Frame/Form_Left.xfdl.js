@@ -27,7 +27,7 @@
 
             obj = new Button("Button_ExpandAll",null,"4","28","28","70",null,null,null,null,null,this);
             obj.set_taborder("2");
-            obj.set_background("url(\'imagerc::btn_WF_TreeExpand.png\') no-repeat center center");
+            obj.set_cssclass("btn_LF_treeexpand");
             this.addChild(obj.name, obj);
 
             obj = new Button("Button_Menu","Button_MyMenu:2","4",null,"28","Button_ExpandAll:2",null,null,null,null,null,this);
@@ -37,12 +37,11 @@
 
             obj = new Button("Button_CollapseAll",null,"4","28","28","40",null,null,null,null,null,this);
             obj.set_taborder("3");
-            obj.set_background("url(\'imagerc::btn_WF_TreeCollapse.png\') no-repeat center center");
+            obj.set_cssclass("btn_WF_treecollapse");
             this.addChild(obj.name, obj);
 
             obj = new Button("Button_MenuSearch",null,"4","28","28","10",null,null,null,null,null,this);
             obj.set_taborder("4");
-            obj.set_background("url(\'imagerc::btn_Menu_Search.png\') no-repeat center center");
             this.addChild(obj.name, obj);
 
             obj = new Div("Div_MenuGrid","10","36",null,null,"10","10",null,null,null,null,this);

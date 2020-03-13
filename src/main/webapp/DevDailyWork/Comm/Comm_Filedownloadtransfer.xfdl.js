@@ -37,11 +37,8 @@
             this.addChild(obj.name, obj);
 
             obj = new FileDownload("FileDownload00","24","170","290","100",null,null,null,null,null,null,this);
-            obj.getSetter("taborder").set("1");
-            obj.getSetter("text").set("FileDownload00");
-            obj.getSetter("onerror").set("FileDownload00_onerror");
-            obj.getSetter("onsuccess").set("FileDownload00_onsuccess");
-            obj.getSetter("onclick").set("FileDownload00_onclick");
+            obj.set_taborder("1");
+            obj.set_text("FileDownload00");
             this.addChild(obj.name, obj);
 
             // Layout Functions
@@ -79,6 +76,9 @@
         {
             this.Grid00.addEventHandler("oncellclick",this.Grid00_oncellclick,this);
             this.Grid00.addEventHandler("oncelldblclick",this.Grid00_oncelldblclick,this);
+            this.FileDownload00.addEventHandler("onerror",this.FileDownload00_onerror,this);
+            this.FileDownload00.addEventHandler("onsuccess",this.FileDownload00_onsuccess,this);
+            this.FileDownload00.addEventHandler("onclick",this.FileDownload00_onclick,this);
         };
 
         this.loadIncludeScript("Comm_Filedownloadtransfer.xfdl");

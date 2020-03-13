@@ -22,7 +22,7 @@
             // UI Components Initialize
             obj = new Button("Button_MenuShowHide","4","4","28","28",null,null,null,null,null,null,this);
             obj.set_taborder("2");
-            obj.set_background("url(\'imagerc::btn_Menu_Hide.png\') no-repeat center center");
+            obj.set_cssclass("btn_LF_fold");
             this.addChild(obj.name, obj);
 
             obj = new Tab("Tab_Menu","Button_MenuShowHide:4","4",null,"32","180",null,null,null,null,null,this);
@@ -46,32 +46,31 @@
 
             obj = new Button("Button_maximize","4","4","28","28",null,null,null,null,null,null,this.Div_MDIControl.form);
             obj.set_taborder("0");
-            obj.set_background("url(\'imagerc::btn_MDI_screenMax_P.png\') no-repeat center center");
+            obj.set_cssclass("btn_mdi_icon01");
             this.Div_MDIControl.addChild(obj.name, obj);
 
             obj = new Button("Button_cascade","Button_maximize:0","4","28","28",null,null,null,null,null,null,this.Div_MDIControl.form);
             obj.set_taborder("1");
-            obj.set_background("url(\'imagerc::btn_MDI_screenPop_P.png\') no-repeat center center");
+            obj.set_cssclass("btn_mdi_icon02");
             this.Div_MDIControl.addChild(obj.name, obj);
 
             obj = new Button("Button_horizontal","Button_cascade:0","4","28","28",null,null,null,null,null,null,this.Div_MDIControl.form);
             obj.set_taborder("2");
-            obj.set_background("url(\'imagerc::btn_MDI_screenH_P.png\') no-repeat center center");
+            obj.set_cssclass("btn_mdi_icon03");
             this.Div_MDIControl.addChild(obj.name, obj);
 
             obj = new Button("Button_vertical","Button_horizontal:0","4","28","28",null,null,null,null,null,null,this.Div_MDIControl.form);
             obj.set_taborder("3");
-            obj.set_background("url(\'imagerc::btn_MDI_screenV_P.png\') no-repeat center center");
+            obj.set_cssclass("btn_mdi_icon04");
             this.Div_MDIControl.addChild(obj.name, obj);
 
             obj = new Button("Button_minimize","Button_vertical:0","4","28","28",null,null,null,null,null,null,this.Div_MDIControl.form);
             obj.set_taborder("5");
-            obj.set_background("url(\'imagerc::btn_MDI_screenMax_P.png\') no-repeat center center");
             this.Div_MDIControl.addChild(obj.name, obj);
 
             obj = new Button("Button_CloseAll","Button_minimize:0","4","28","28",null,null,null,null,null,null,this.Div_MDIControl.form);
             obj.set_taborder("4");
-            obj.set_background("url(\'imagerc::btn_MDI_screenClose_P.png\') no-repeat center center");
+            obj.set_cssclass("btn_mdi_icon05");
             this.Div_MDIControl.addChild(obj.name, obj);
 
             // Layout Functions
@@ -347,10 +346,12 @@
         	case "Button_MenuShowHide":
         		if(this.fv_MenuShowHide){
         			HINTS.gv_WorkFrameSet.set_separatesize("265,*");
-        			this.Button_MenuShowHide.set_background("url('imagerc::btn_Menu_Hide.png') no-repeat center center");
+        			this.Button_MenuShowHide.set_cssclass("btn_LF_fold");
+        			//this.Button_MenuShowHide.set_background("url('imagerc::btn_Menu_Hide.png') no-repeat center center");
         		} else {
         			HINTS.gv_WorkFrameSet.set_separatesize("0,*");
-        			this.Button_MenuShowHide.set_background("url('imagerc::btn_Menu_Show.png') no-repeat center center");
+        			this.Button_MenuShowHide.set_cssclass("btn_LF_expand");
+        			//this.Button_MenuShowHide.set_background("url('imagerc::btn_Menu_Show.png') no-repeat center center");
         		}
         		this.fv_MenuShowHide = !this.fv_MenuShowHide;
         		break;
@@ -365,6 +366,9 @@
         this.Form_onload = function (obj, e)
         {
         	this.Tab_Menu.removeTabpage(0);
+
+        	this.Button_MenuShowHide.click();
+        	this.Button_MenuShowHide.set_visible(false);
         }
 
 
